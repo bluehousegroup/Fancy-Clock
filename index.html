@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>FancyClock</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="apple-touch-icon" href="/favicon.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<style type="text/css">
+			body { background:rgb(48,48,48) url(texture.png) 0 0 repeat; font-family:Helvetica,Arial,sans-serif; text-shadow:1px 1px 1px rgba(0,0,0,.25),-1px 1px 1px rgba(0,0,0,.25),-1px -1px 1px rgba(0,0,0,.25),1px -1px 1px rgba(0,0,0,.25); }
+			
+			div { width:19em; margin:50px auto; }
+				div p { text-align:justify; text-align-last:justify; line-height:1.1; height:1.5em; }
+					div p:after { content:'.'; display:inline-block; width:100%; height:0; visibility:hidden; }
+			
+			.word { text-transform:uppercase; font-size:2em; color:rgba(255,255,255,.2); display:inline-block; }
+				.word.active, .word.permanent { color:rgba(255,255,255,.8); text-shadow:0 0 8px rgba(255,255,255,.5); }
+		</style>
+</head>
+<body>
+	<div id="wrap">
+		<p><span class="word it permanent">it&nbsp;is</span> <span class="word half">half</span> <span class="word ten">ten</span></p>
+		<p><span class="word normal quarter">quarter</span> <span class="word twenty">twenty</span></p>
+		<p><span class="word normal five">five</span> <span class="word minutes">minutes</span> <span class="word to">to</span></p>
+		<p><span class="word normal past">past</span> <span class="word t1">one</span> <span class="word t3">three</span></p>
+		<p><span class="word normal t2">two</span> <span class="word t4">four</span> <span class="word t5">five</span></p>
+		<p><span class="word normal t6">six</span> <span class="word t7">seven</span> <span class="word t8">eight</span></p>
+		<p><span class="word normal t9">nine</span> <span class="word t10">ten</span> <span class="word t11">eleven</span></p>
+		<p><span class="word normal t12">twelve</span> <span class="word oclock">o'clock</span></p>
+	</p>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="j.js"></script>
+</body>

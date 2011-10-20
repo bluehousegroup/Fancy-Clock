@@ -1,0 +1,7 @@
+1. Add reference to BHG - maybe an icon that animates and rotates the clock and displays our logo. or just a subtle version stuck to the bottom?
+2. Add humans.txt - http://humanstxt.org/Standard.html
+3. Add credit to inspiration - http://www.dougswordclock.com/
+4. Reach out to Doug, he might appreciate it?
+5. Adjust sizing so that it takes up more of the viewport, based on the device.
+6. Git it?
+7. Got it.
